@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Taxa Metabólica Basal</title>
+
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora de Taxa Metabólica Basal (TMB)</h1>
+    
+    <div>
+        <p>A taxa metabólica basal é a quantidade de energia gasta por dia em repouso. É também, o total de calorias gastas para manter as funções vitais como os batimentos cardíacos, a pressão arterial e a temperatura corporal.</p>
+        <p>O cálculo da TMB é feito a partir da Equação de Mifflin-St Jeor e seus resultados são baseados em uma média estimada.</p>
+    </div>
+
+    <div id="div_inputs"><br>
+        <p>Sexo [F/M]: <input id="input_gender" type="text"></p>
+        <p>Peso [em Kg]: <input id="input_weight"></p>
+        <p>Altura [em cm]: <input id="input_height"></p>
+        <p>Idade [em anos]: <input id="input_age"></p>
+        <button onclick="calculate()">Calcular</button><br><br>
+    </div>
+
+    <div id="div_result"></div>
+
+    <!-- <p>Referência: https://www.leighpeele.com/mifflin-st-jeor-calculator</p> -->
+</body>
+
+</html>

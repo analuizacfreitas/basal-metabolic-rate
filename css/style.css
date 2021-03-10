@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+#div_inputs {
+    text-align: center;
+    background-color: #c6ecc6;
+    border-radius: 8px;
+}
+
+#input_gender, #input_weight, #input_height, #input_age {
+    font-size: 15px;
+    height: 18px;
+    background-color: #f2f2f2;
+    border: 1.5px solid  #206020;
+    border-radius: 3px;
+    text-align: center;
+}
+
+button {
+    font-size: 15px;
+    border-radius: 4px;
+}
