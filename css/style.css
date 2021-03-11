@@ -3,13 +3,16 @@
 body {
     background-color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 17px;
+    margin: 20px;
 }
 
 #div_inputs {
     text-align: center;
-    background-color: #c6ecc6;
+    background-color: #b2dab2;
     border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
 }
 
 #input_gender, #input_weight, #input_height, #input_age {
@@ -24,4 +27,26 @@ body {
 button {
     font-size: 15px;
     border-radius: 4px;
+}
+
+#div_principal {
+    background-color: #b2dab2;
+    border-radius: 8px;
+    margin: 10px;
+    width: 98.5%;
+    float: left;
+}
+
+#div_result {
+    float: inherit;
+    justify-items: center;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 120px;
+    padding-right: 80px;
+}
+
+#illustration {
+    width: 340px;
+    padding: 12px;
 }

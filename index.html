@@ -19,15 +19,17 @@
         <p>O cálculo da TMB é feito a partir da Equação de Mifflin-St Jeor e seus resultados são baseados em uma média estimada.</p>
     </div>
 
-    <div id="div_inputs"><br>
+    <div id="div_inputs">
         <p>Sexo [F/M]: <input id="input_gender" type="text"></p>
         <p>Peso [em Kg]: <input id="input_weight"></p>
         <p>Altura [em cm]: <input id="input_height"></p>
         <p>Idade [em anos]: <input id="input_age"></p>
-        <button onclick="calculate()">Calcular</button><br><br>
+        <button onclick="calculate()">Calcular</button>
     </div>
-
-    <div id="div_result"></div>
+    <div id="div_principal">
+        <div id="div_result"></div>
+        <div id="div_image"></div>
+    </div>
 
     <!-- <p>Referência: https://www.leighpeele.com/mifflin-st-jeor-calculator</p> -->
 </body>
