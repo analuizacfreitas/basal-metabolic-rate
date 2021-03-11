@@ -1,4 +1,4 @@
-# Basal Metabolic Rate Calculator
+# Basal Metabolic Rate (BMR) Calculator
 
 **Objetivo do Projeto:** Criar uma calculadora de Taxa Matabólica Basal (TMB).
 
