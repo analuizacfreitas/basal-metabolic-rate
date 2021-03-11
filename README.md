@@ -5,6 +5,6 @@
 **O que é Taxa Metabólica Basal?** A taxa metabólica basal é a quantidade de energia gasta por dia em repouso. É também, o total de calorias gastas para manter as funções vitais como os batimentos cardíacos, a pressão arterial e a temperatura corporal
 O cálculo da TMB é feito a partir da Equação de Mifflin-St Jeor e seus resultados são baseados em uma média estimada.
 
-**Equações utilizadas para cálculos:** 
+**Referências utilizadas para cálculos:** 
 - Equação de Mifflin-St Jeor
-- Equação de Harris-Benedict
+- Fator para diferentes níveis de Atividade Física
