@@ -5,14 +5,15 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17px;
     margin: 20px;
+    margin-bottom:50px;
 }
 
 #div_inputs {
     text-align: center;
     background-color: #b2dab2;
     border-radius: 8px;
-    margin: 10px;
-    padding: 10px;
+    margin: 8px;
+    padding: 8px;
 }
 
 #input_gender, #input_weight, #input_height, #input_age {
@@ -32,7 +33,7 @@ button {
 #div_principal {
     background-color: #b2dab2;
     border-radius: 8px;
-    margin: 10px;
+    margin: 8px;
     width: 98.5%;
     float: left;
 }
@@ -47,6 +48,19 @@ button {
 }
 
 #illustration {
-    width: 340px;
+    width: 300px;
     padding: 12px;
 }
+
+/*
+footer {
+    text-align: center;
+    position: fixed;
+    height: 50px;
+    background-color: rgb(200, 204, 201);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+*/
